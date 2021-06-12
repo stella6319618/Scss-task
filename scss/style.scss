@@ -1,0 +1,173 @@
+@import "bootstrap/bootstrap";
+// @import "variable";
+@import "reset";
+// @import "mixin";
+@import "main";
+
+.header-height {
+  height: 870px;
+}
+
+.navbar .navbar-nav a{
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.banner .btn {
+  border-radius: 1.875rem;
+  line-height: 2.5rem;
+  border: 2px solid #fff;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  &:hover {
+    background: #ffffff4d 0% 0% no-repeat padding-box;
+  }
+}
+
+.product-height {
+  height: 555px;
+  background-size: cover;
+}
+
+.product-detail-height {
+    height: 1080px;
+  background-size: cover;   
+}
+
+.product-list-height {
+  height: 540px;
+  background-size: cover;  
+  background-position-y: center;
+}
+
+.line-height-48 {
+    line-height: 3rem; //48px
+}
+
+.line-height-36 {
+    line-height: 2.25rem; //36px
+}
+
+.line-height-32 {
+    line-height: 2rem; //32px
+}
+
+.line-height-30 {
+    line-height: 1.875rem; //30px
+}
+
+.line-height-24 {
+    line-height: 1.5rem; //24px
+}
+
+.product .card:nth-child(odd) .row{
+	flex-direction: row-reverse;
+}
+
+.card li {
+    margin-bottom: 52px;
+}
+
+.card .btn {
+    border-radius: 1.875rem;
+    border: 2px solid #000;
+    background-color: rgba(0, 0, 0, 0);
+    &:hover {
+        background: #0000000D 0% 0% no-repeat padding-box;
+    }
+  }
+
+  .product-list .container {
+    padding: 2.5rem 0;
+  }
+  
+  .mask{
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 2rem;
+}
+
+.more-information.container {
+  margin-top: 3.75rem;
+  margin-bottom: 3.75rem;
+}
+
+.subscription {
+  &.subscription-height {
+    height: 555px;
+    background-size: cover;
+    background-position: 50%;
+  }
+  .container {
+    padding-top: 312px;
+    form {
+      display: flex;
+      input {
+        height: 60px;
+      }
+    }
+  }
+}
+
+.footer {
+  .brand.container{
+    height: 80px;
+    div.logo{
+      img {
+        margin-right: 20px;
+      }
+    }
+    ul {
+      li {
+        a {
+          margin-left: 36px;
+          color: #FFF;
+          font-size: 20px;
+          line-height: 30px
+        }
+      }
+    }
+  }
+}
+
+.pages-header {
+  .container {
+    height: 3.25rem;
+  }
+
+  .pages-header-nav-styles {
+    margin-right: 1.75rem;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+}
+
+.pages-main {
+  .content {
+    margin-top: 188px;
+  }
+  .products-height {
+    height: 255px;
+    background-size: cover;
+    background-position: center;
+  }
+  .pagination {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    .page-link {
+      &.active {
+        color:$primary;
+        text-decoration: underline;
+      }
+      color: #000;
+      border: none;
+    }
+  }
+}
+
+

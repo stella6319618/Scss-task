@@ -1,0 +1,17 @@
+@mixin desktop() {
+  @media (max-width: $desktop-media) {
+    @content;
+  }
+}
+
+@mixin mobile() {
+  @media (max-width: $mobile-media) {
+    @content;
+  }
+}
+
+@mixin text-hide() {
+  text-indent:101%;
+  overflow:hidden;
+  white-space: nowrap;
+}
